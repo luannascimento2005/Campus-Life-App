@@ -1,5 +1,5 @@
 // Campus Life Hub MVP JavaScript
-// This file has the basic interactivity for the MVP pages.
+// This file handles basic interactivity for the MVP pages.
 
 console.log("Campus Life Hub script loaded.");
 
@@ -17,7 +17,7 @@ eventButtons.forEach(function (button) {
   });
 });
 
-// API attempt using Open-Meteo
+// Basic API attempt using Open-Meteo
 if (weatherBtn && weatherText) {
   weatherBtn.addEventListener("click", async function () {
     weatherText.textContent = "Loading weather...";
