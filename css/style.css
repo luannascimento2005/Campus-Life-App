@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.placeholder-box {
+  height: 200px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
